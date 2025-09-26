@@ -66,7 +66,7 @@ export const managers = [
         image: "/managers/jordan.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "favoritePlayer": 10937, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-      "valuePosition": "QB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+      "valuePosition": "Picks", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Culture first, ideally my players are all people I geniunely root for and support. After that, I'm all about development and growth - I love to see a player I took a shot on become one of the best in the league. Even if I never win, I can still enjoy rooting for my players and keeping our league active.",
       "tradingScale": 10, // 1 - 10
