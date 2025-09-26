@@ -254,14 +254,14 @@
                 </div>
             {/if}
         </div>
-        <!-- Preferred contact -->
+        <!-- Trading Scale -->
         <div class="infoSlot">
-            {#if manager.preferredContact}
+            {#if manager.tradingScale}
                 <div class="infoIcon">
-                    <img class="infoImg" src="/{manager.preferredContact}.png" alt="{manager.preferredContact}"/>
+                    <img class="infoImg" src="/{manager.tradingScale}.png" alt="{manager.tradingScale}"/>
                 </div>
                 <div class="infoAnswer">
-                    {manager.preferredContact}
+                    {manager.tradingScale}
                 </div>
             {:else}
                 <div class="infoIcon question">
