@@ -256,18 +256,12 @@
         </div>
         <!-- Trading Scale -->
         <div class="infoSlot">
-            {#if manager.tradingScale}
-                <div class="infoIcon">
-                    <img class="infoImg" src="/{manager.tradingScale}.png" alt="{manager.tradingScale}"/>
-                </div>
-                <div class="infoAnswer">
-                    {manager.tradingScale}
-                </div>
-            {:else}
-                <div class="infoIcon question">
-                    <img class="infoImg" src="/managers/question.jpg" alt="favorite team"/>
-                </div>
-            {/if}
+            <div class="infoIcon">
+                <span class="tradingScale">{viewManager.tradingScale}</span>
+            </div>
+            <div class="infoAnswer">
+                {viewManager.tradingScale} out of 10
+            </div>
         </div>
         <!-- Rebuild mode (optional and only displayed for dynasty leagues) -->
         {#if dynasty}
