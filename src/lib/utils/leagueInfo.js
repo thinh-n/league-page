@@ -7,12 +7,13 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>A long time ago, some young boys decided to partake in the greatest tradition of mankind - fantasy football. Some of them knew each since childhood, others became close friends in college freshman doors, and few were connected online. Through the pandemic, graduations, new jobs, cross-country moves, this group of friends have stood the test of time.</p>
+  <p>Since the league was found in 2017, many familiar faces from the University of Michigan have come and gone. Legends such as Archan Patel, Evan Harrold, and Jonah Dykhuizen has graced this league during the formative years, when this league was known as Michigan WolverLeague</p>
+  <p>While we honor the past legends, we must acknowledge the original gods who still stand to fight - Jack Pedlow, Jordan Jacobson, and Thinh Nguyen. These three have been around since the founding of the league in 2017. </p>
+  <p>A year later, fan favorites, Callum Krause and Chris Roush, joined the fray to stake their claim. This began the expansion of the league, leaving the confines of Allen House. </p>
+  <p>From 2019 to 2021, history was lost due to a global pandemic (and maybe my poor memory, please lmk if you know). However, we do know from those dark ages, Myles Fogle, Rayan Bahri, Nikhil Saligame, and Will Tirone became mainstays of the league.</p>
+  <p>The final managers to put their names in the hat came in 2022. Tom Carrier, Jeremiah Weintraub, and Max Watson are the final three to solidify the most prestigious league worldwide.</p>
+  <p>Now, in 2025, we begin our journey of not just winning championships, we don't even have a prize pool, but to create a dynasty. Who will win? Who will last? Only time will tell in the League of Our Own.</p>
 `;
 
 /*   STEP 3   */
