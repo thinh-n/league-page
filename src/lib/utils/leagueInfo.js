@@ -55,20 +55,20 @@ export const managers = [
       "name": "Thinh Nguyen",
       "tookOver": 2017, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "San Francisco, CA", // (optional)
-      "bio": "Lorem ipsum...",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
+      "bio": "I met Jack and Jordan during our freshman year at Michigan in 2017 and I've been close to them and the rest of the guys from Chelsea, MI since then. I've known Tom and Max since childhood and we've always kept in touch through video games (Xbox, now PC). I currently live in San Francisco with my partner, Kenzie, and our pet yorkie, Finn! I love the walkability, nature, and weather of the city. I work as a Market Analyst forecasting trends and prices in renewable energy markets.",
+      "photo": "/managers/thinh.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2017, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "sf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
-        name: "Rival", // Can be anything (usually your rival's name)
-        link: 6, // manager array number within this array, or null to link back to all managers page
+        name: "Jordan - the CORRUPT commissioner", // Can be anything (usually your rival's name)
+        link: 2, // manager array number within this array, or null to link back to all managers page
         image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "favoritePlayer": 10937, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "QB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "Your fantasy team's philosophy",
+      "philosophy": "Culture first, ideally my players are all people I geniunely root for and support. After that, I'm all about development and growth - I love to see a player I took a shot on become one of the best in the league. Even if I never win, I can still enjoy rooting for my players and keeping our league active.",
       "tradingScale": 10, // 1 - 10
       "preferredContact": null, // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
