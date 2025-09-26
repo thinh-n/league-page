@@ -97,6 +97,14 @@ import { dynasty } from './utils/helper';
             separator: false,
             dynastyOnly: false,
         },
+        {
+            name: "KeepTradeCut Dynasty Rankings",
+            url: "https://keeptradecut.com/dynasty-rankings",
+            icon: "assessment",
+            premium: false,
+            separator: false,
+            dynastyOnly: false,
+        },
     ];
 </script>
 
