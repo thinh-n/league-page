@@ -55,12 +55,12 @@
 
 	.banner-D-2 {
 		background-image: url("/division-2-banner.png");
-		background-position: right; 
+		background-position: left; 
 	}
 
 	.banner-D-3 {
 		background-image: url("/division-3-banner.png");
-		background-position: left; 
+		background-position: right; 
 	}
 
 	h2 {
