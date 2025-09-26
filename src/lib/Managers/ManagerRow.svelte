@@ -256,7 +256,7 @@
         </div>
         <!-- Trading Scale -->
         <div class="infoSlot">
-           {#if manager.tradingScale}
+           {#if viewManager.tradingScale}
                 <div class="infoIcon">
                 	<span class="tradingScale">{viewManager.tradingScale}</span>
             	</div>
