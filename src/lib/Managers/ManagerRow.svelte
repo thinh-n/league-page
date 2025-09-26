@@ -254,6 +254,21 @@
                 </div>
             {/if}
         </div>
+		<!-- Trading Scale -->
+		<div class="infoSlot">
+            {#if manager.tradingScale}
+                <div class="infoIcon">
+                    <span class="tradingScaleRow">{manager.tradingScale}</span>
+                </div>
+                <div class="infoAnswer">
+                    Trade Scale
+                </div>
+            {:else}
+                <div class="infoIcon question">
+                    <img class="infoImg" src="/managers/question.jpg" alt="trading scale"/>
+                </div>
+            {/if}
+        </div>
         <!-- Rebuild mode (optional and only displayed for dynasty leagues) -->
         {#if dynasty}
             <div class="infoSlot infoRebuild">
