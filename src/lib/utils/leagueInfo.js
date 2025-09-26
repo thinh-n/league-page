@@ -273,7 +273,7 @@ export const managers = [
         image: "/managers/nikhil.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "favoritePlayer": 240, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-      "valuePosition": "S", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+      "valuePosition": "SS", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "PPR scam to the very top. High volume over boom/bust. Invest in youth but employ a steady veteran presence to steer the ship. ",
       "tradingScale": 8, // 1 - 10
