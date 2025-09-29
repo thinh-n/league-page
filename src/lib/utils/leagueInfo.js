@@ -7,8 +7,8 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>A long time ago, some young boys decided to partake in the greatest tradition of mankind - fantasy football. Some of them knew each since childhood, others became close friends in college freshman dorms, and few were connected online. Through the pandemic, graduations, new jobs, cross-country moves, this group of friends have stood the test of time.</p>
-  <p>Since the league was found in 2017, many familiar faces from the University of Michigan have come and gone. Legends such as Archan Patel, Evan Harrold, and Jonah Dykhuizen has graced this league during the formative years for Michigan WolverLeague.</p>
+  <p>A long time ago, some young boys decided to partake in the greatest tradition of mankind - fantasy football. Some of them knew each other since childhood, others became close friends in college freshman dorms, and few were connected online. Through the pandemic, graduations, new jobs, cross-country moves, this group of friends has stood the test of time.</p>
+  <p>Since the league was founded in 2017, many familiar faces from the University of Michigan have come and gone. Legends such as Archan Patel, Evan Harrold, and Jonah Dykhuizen has graced this league during the formative years for Michigan WolverLeague.</p>
   <p>While we honor the past legends, we must acknowledge the original gods who still stand to fight - Jack Pedlow, Jordan Jacobson, and Thinh Nguyen. These three have been around since the founding of the league in 2017. </p>
   <p>A year later, fan favorites, Callum Krause and Chris Roush, joined the fray to stake their claim. This began the expansion of the league, leaving the confines of Allen House. </p>
   <p>From 2019 to 2021, history was lost due to a global pandemic (and maybe my poor memory, please lmk if you know). However, we do know from those dark ages, Myles Fogle, Rayan Bahri, Nikhil Saligame, and Will Tirone became mainstays of the league.</p>
@@ -29,7 +29,7 @@ export const managers = [
     {
       "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "330258647449890816",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
-      "name": "Will Tirone",
+      "name": "Will Tirone (wip)",
       "tookOver": 2021, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Brooklyn", // (optional)
       "bio": "Lorem ipsum...",
@@ -75,7 +75,7 @@ export const managers = [
     {
       "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "469949616146608128",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
-      "name": "Jordan Jacobson",
+      "name": "Jordan Jacobson (wip)",
       "tookOver": 2017, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Brooklyn", // (optional)
       "bio": "Lorem ipsum...",
@@ -98,7 +98,7 @@ export const managers = [
     {
       "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "1001742230110957568",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
-      "name": "Jeremiah Weintraub",
+      "name": "Jeremiah Weintraub (wip)",
       "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Brooklyn", // (optional)
       "bio": "Lorem ipsum...",
@@ -144,7 +144,7 @@ export const managers = [
     {
       "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "1260309241047027712",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
-      "name": "Max Watson",
+      "name": "Max Watson (wip)",
       "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Brooklyn", // (optional)
       "bio": "Lorem ipsum...",
@@ -167,7 +167,7 @@ export const managers = [
     {
       "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "1260327133281005568",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
-      "name": "Chris Roush",
+      "name": "Chris Roush (wip)",
       "tookOver": 2018, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Brooklyn", // (optional)
       "bio": "Lorem ipsum...",
@@ -190,7 +190,7 @@ export const managers = [
     {
       "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "1260379065357959168",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
-      "name": "Tom Carrier",
+      "name": "Tom Carrier (wip)",
       "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Brooklyn", // (optional)
       "bio": "Lorem ipsum...",
@@ -213,7 +213,7 @@ export const managers = [
     {
       "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "1260380659189284865",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
-      "name": "Myles Fogle",
+      "name": "Myles Fogle (wip)",
       "tookOver": 2021, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Brooklyn", // (optional)
       "bio": "Lorem ipsum...",
@@ -282,7 +282,7 @@ export const managers = [
     {
       "roster": 12,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "1260726139089850368",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
-      "name": "Jack Pedlow",
+      "name": "Jack Pedlow (wip)",
       "tookOver": 2017, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Brooklyn", // (optional)
       "bio": "Lorem ipsum...",
