@@ -239,7 +239,7 @@ export const managers = [
       "name": "Tom Carrier",
       "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Novi, MI", // (optional)
-      "bio": "-boys with thinh since day 1\n-boys with max since day 2 (played hockey together)\n-Detroit sports fan\n-Anti-UM (MSU/Purdue alum)\n-hockey beer leaguer\n-video game competitor\n-sell traffic signals\n-grill the best steak\n-2 dogs\n-1 GF",
+      "bio": "-boys with thinh since day 1\n\n-boys with max since day 2 (played hockey together)\n\n-Detroit sports fan\n\n-Anti-UM (MSU/Purdue alum)\n\n-hockey beer leaguer\n\n-video game competitor\n\n-sell traffic signals\n\n-grill the best steak\n\n-2 dogs\n\n-1 GF",
       "photo": "/managers/tom.jpeg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2022, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "det", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
