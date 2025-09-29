@@ -125,7 +125,7 @@ export const managers = [
       "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Washington DC", // (optional)
       "bio": "High school friend of Jordan and Will’s. Went to WVU and am a Big 12 enthusiast. Currently in law school. Buffalo wing connoisseur. Former chess coach. Currently watching Dexter. Sad Mets fan. Wendy is my favorite fast food restaurant. I think I can fix troubled players. ",
-      "photo": "/managers/jeremiah.png", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/jeremiah.jpeg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2022, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "ne", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -240,7 +240,7 @@ export const managers = [
       "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Novi, MI", // (optional)
       "bio": "-boys with thinh since day 1\n-boys with max since day 2 (played hockey together)\n-Detroit sports fan\n-Anti-UM (MSU/Purdue alum)\n-hockey beer leaguer\n-video game competitor\n-sell traffic signals\n-grill the best steak\n-2 dogs\n-1 GF",
-      "photo": "/managers/tom.png", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/tom.jpeg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2022, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "det", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
