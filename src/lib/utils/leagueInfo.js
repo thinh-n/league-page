@@ -63,7 +63,7 @@ export const managers = [
       "rival": {
         name: "No clear rival has been established yet- but Full Chubb did just hand me my first L so could be an early candidate given that they are also division rivals", // Can be anything (usually your rival's name)
         link: 7, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/nikhil.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+        image: "/managers/nikhil.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "favoritePlayer": 240, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "SS", // (optional) Favorite position (QB, WR, RB, TE, etc.)
