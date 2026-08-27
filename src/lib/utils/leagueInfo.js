@@ -1,5 +1,5 @@
 /*   STEP 1   */
-export const leagueID = "1260303696181338112"; // your league ID
+export const leagueID = "1311995418350997504"; // your league ID
 export const leagueName = "League of Our Own"; // your league name
 export const dues = 100; // (optional) used in template constitution page
 export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
@@ -31,11 +31,11 @@ export const managers = [
       "managerID": "469946699079479296",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Thinh Nguyen",
       "tookOver": 2017, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "San Francisco, CA", // (optional)
+      "location": "Novi, MI", // (optional)
       "bio": "I met Jack and Jordan during our freshman year at Michigan in 2017 and I've been close to them and the rest of the guys from Chelsea, MI since then. I've known Tom and Max since childhood and we've always kept in touch through video games (Xbox, now PC). I currently live in San Francisco with my partner, Kenzie, and our pet yorkie, Finn! I love the walkability, nature, and weather of the city. I work as a Market Analyst forecasting trends and prices in renewable energy markets.",
       "photo": "/managers/thinh.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2017, // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": "sf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "favoriteTeam": "det", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         name: "Jordan - the CORRUPT commissioner", // Can be anything (usually your rival's name)
